@@ -1,15 +1,6 @@
 #include "./testlib.h"
 #include "./constraints.hpp"
 #include <cassert>
-
-void readIntLine(int len, int min, int max){
-    for(int i = 0; i < len; ++i){
-        if(i > 0) inf.readSpace();
-        inf.readInt(min, max);
-    }
-    inf.readEoln();
-}
-
 int main(){
   int i,j,x,y;
   registerValidation();

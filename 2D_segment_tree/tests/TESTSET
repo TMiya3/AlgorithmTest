@@ -7,8 +7,8 @@ cxx_generator(src='generator.c')
 #script_generator(src='generator.py')
 
 ## Input validators.
-#c_validator(src='validator.c')
-cxx_validator(src='validator.cc', flags=['-O2', '-std=c++11'])
+cxx_validator(src='validator.c')
+#cxx_validator(src='validator.cc', flags=['-O2', '-std=c++11'])
 #java_validator(src='Validator.java', encoding='UTF-8', mainclass='Validator')
 #script_validator(src='validator.py')
 
